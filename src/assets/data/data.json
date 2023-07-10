@@ -1,0 +1,84 @@
+{
+  "header":
+  {
+    "name": "Ignacio Nicolás Roncal",
+    "profession": "Full stack web developer",
+    "description": "I am 24 years old and I really like programming and I have no problem adapting and learning new technologies in order to perform correctly in my position. I am a responsible, punctual, active person and I like to help my colleagues with whatever is within my reach, although I also usually ask for help to correct my mistakes and avoid delays at work.",
+    "img": "/img/profilephoto.png"
+  },
+  "education":
+  [
+    {
+      "name": "Instituto Dante Alighieri.",
+      "title": "Bachelor's degree specialized in computer science 2003 - 2016.",
+      "state": "Complete education.",
+      "average": "Average 8.",
+      "link": "https://dantebariloche.edu.ar/"
+    },
+    {
+      "name": "Universidad Nacional de Río Negro.",
+      "title": "Lic. en Telecomunicaciones 2017 - Present.",
+      "state": "4th year on the carrer.",
+      "average": null,
+      "link": "https://www.unrn.edu.ar/home"
+    },
+    {
+      "name": "React: De cero a Experto - Hernando Herrera.",
+      "title": null,
+      "state": "Finished course.",
+      "average": null,
+      "link": "https://www.udemy.com/course/react-cero-experto/?kw=React&src=sac"
+    },
+    {
+      "name": "Argentina Programa.",
+      "title": null,
+      "state": "Finished course.",
+      "average": null,
+      "link": "https://www.argentina.gob.ar/economia/conocimiento/argentina-programa"
+    },
+    {
+      "name": "Soporte de tecnologías de la información - Google",
+      "title": null,
+      "state": "Ongoing capacitation",
+      "average": null,
+      "link": "https://crece.withgoogle.com/intl/es_ar/certificates/"
+    }
+  ],
+  "projects":
+  [
+    {
+      "title": "Gif app",
+      "description": "App created with React 18 with didactic reasons. GIF search engine that consumes the GIPHY api.",
+      "link": "https://github.com/Igniron/gif-app-18",
+      "img": "/img/gifs.png"
+    },
+    {
+      "title": "Journal app",
+      "description": "App to write and save notes created with React 18, Firebase and Cloudinary. The objective of the project is to learn how to implement tools.",
+      "link": "https://github.com/Igniron/journal-app-18",
+      "img": "/img/journal.png"
+    },
+    {
+      "title": "Calendar app",
+      "description": "Calendar app capable of creating and storing events created with the MERN stack tools (Mongo db, Express, React, Node js).",
+      "link": "https://github.com/Igniron/mern-calendar-18-front",
+      "img": "/img/calendar.png"
+    },
+    {
+      "title": "Protfolio Angular",
+      "description": "Calendar app capable of creating and storing events created with the MERN stack tools (Mongo db, Express, React, Node js).",
+      "link": "https://github.com/Igniron/protfolio-front-end",
+      "img": "/img/portfolio.PNG"
+    }
+  ],
+  "contact":
+  {
+    "home": "La Primavera 4582.",
+    "location": "San Carlos de bariloche, Rio Negro, Argentina.",
+    "email": "ignacioroncal98@gmail.com",
+    "instagram": "https://www.instagram.com/nachoroncal/",
+    "twitter": "https://twitter.com/NachRoncal",
+    "linkedin": "https://www.linkedin.com/in/ignacio-roncal-79b48a223/",
+    "github": "https://github.com/Igniron"
+  }
+}

@@ -1,0 +1,54 @@
+nav
+{
+    align-items: center;
+    background-color: #21272F;
+    color: #FFFF;
+    display: flex;
+    font-family: 'Montserrat', sans-serif;
+    height: 15vh;
+    padding: 0px 50px;
+}
+
+.nav-left
+{
+    align-items: center;
+    display: flex; 
+    font-size: 20px;
+    font-weight: 700;
+    justify-content: center;
+    user-select: none;
+    width: 20%;
+}
+.nav-left svg
+{
+    color: #00BD95;
+    height: 30px;
+    padding-right: 5px;
+    width: 30px;
+}
+
+.nav-right
+{
+    display: flex;
+    flex-direction: row;
+    gap: 10vw;
+    justify-content: center;
+    list-style: none;
+    margin: 0;
+    width: 100%;
+}
+
+
+.nav-right li a
+{
+    color: #FFF;
+    font-weight: 500;
+    font-size: 20px;
+    text-decoration: none;
+    transition: all 250ms;
+}
+
+.nav-right li a:hover
+{
+    color: #00BD95;
+}
