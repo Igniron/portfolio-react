@@ -18,14 +18,9 @@
     width: auto;
 }
 
-.projects-conteiner
+.slider
 {
-    align-items: center;
-    display: flex;
-    flex-direction: row;
-    gap: 10px;
-    justify-content: center;
-    margin: 0 auto;
+    margin: auto;
     width: 90%;
 }
 
@@ -36,24 +31,27 @@
     color: #fff;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-evenly;
     padding: 30px 30px 30px 30px;
     text-decoration: none;
     transition: all 250ms;
-    width: 40%;
+    width: 50%;
+    height: 400px;
+    margin: 0 auto;
+    border-radius: 10px;
 }
 
 .project-title
 {
     padding-bottom: 15px;
-    font-size: 20px;
+    font-size: 30px;
 }
 
 .photo
 {
     margin: 0 auto;
     padding-bottom: 20px;
-    width: 200px;
+    width: 400px;
 }
 
 .project-text

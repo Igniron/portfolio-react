@@ -18,42 +18,51 @@
     width: auto;
 }
 
-.skills-cards
+.slider
 {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    column-gap: 3vw;
-    row-gap: 3vw;
-    width: 100%;
-    padding: 0px 0px 40px 0px;
-    transition: all 250ms;
+    height: 100%;
+    margin: auto;
+    width: 80%;
 }
 
-.skills-cards div
+.skills-cards
 {
     align-items: center;
     background-color: #171C23;
-    border-radius: 5px;
+    border-radius: 10px;
+    column-gap: 3vw;
     display: flex;
     flex-direction: column;
-    height: 100%;
-    margin: 0px auto;
-    padding: 20px 15px;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px 0px 20px 0px;
+    row-gap: 3vw;
     text-align: center;
-    transition: all 500ms;
-    user-select: none;
-    width: 100px;
+    transition: all 250ms;
+    width: 200px !important;
+    height: 125px !important;
+    margin: 14px 20px !important;
 }
 
-.skills-cards div:hover{
+.skills-cards:hover{
     box-shadow: 0px 10px 20px 1px rgba(0,189,149,0.2);
 }
 
-.skills-cards div svg
+.skills-cards:hover svg, .skills-cards:hover p
 {
-    color: #00BD95;
-    height: 50px;
-    margin-bottom: 10px;
-    width: 50px;
+    color: #12AE95;
 }
+
+.skills-cards svg
+{
+    width: 60px;
+    height: 60px;
+    margin: 12px 0px;
+    transition: all 250ms;
+}
+
+.skills-cards p
+{
+    transition: all 250ms;
+}
+
