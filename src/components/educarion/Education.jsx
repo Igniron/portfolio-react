@@ -8,15 +8,15 @@ export const Education = () => {
 
     
   return (
-  <div class="education">
+  <div className="education">
     <h2 id="education">Education</h2>
 
-    <div class="education-cards">
+    <div className="education-cards">
 
 
     {
       education.map(data => (
-        <div>
+        <div key={ data.id }>
           <h3>{ data.name }</h3> 
           <h5>{ data.title }</h5>
           <ul>

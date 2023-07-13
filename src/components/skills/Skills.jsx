@@ -10,7 +10,7 @@ export const Skills = () => {
   
   const settings = {
     autoplay: true,
-    autoplaySpeed: 5000,
+    autoplaySpeed: 4000,
     className: "slider",
     dots: true,
     infinite: true,

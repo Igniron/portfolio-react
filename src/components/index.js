@@ -1,5 +1,6 @@
 export * from './educarion/Education';
 export * from './footer/Footer';
+export * from './ham/Ham';
 export * from './header/Header';
 export * from './navbar/Navbar';
 export * from './proyects/Proyects';

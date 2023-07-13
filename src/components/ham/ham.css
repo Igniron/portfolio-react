@@ -1,0 +1,33 @@
+.ham-menu
+{
+    background-color: #21272F;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    margin-top: 20px;
+    height: 100%;
+    width: 100%;
+}
+
+.ham-menu li
+{
+    padding-bottom: 20px;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+.ham-menu li a
+{
+    color: #FFF;
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
+    transition: all 250ms;
+}
+
+
+.ham-menu li a:hover 
+{
+    color: #00BD95;
+}
