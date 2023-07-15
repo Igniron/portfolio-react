@@ -9,16 +9,54 @@ export const Skills = () => {
 
   
   const settings = {
-    autoplay: true,
-    autoplaySpeed: 4000,
+
+    arrows: false,
+    autoplay: false,
+    autoplaySpeed: 3000,
+    centerMode:true,
     className: "slider",
     dots: true,
     infinite: true,
-    centerMode:true,
+    pauseOnHover: true,
     slidesPerRow: 2,
     slidesToScroll: 1,
     slidesToShow: 4,
     speed: 500,
+
+
+    responsive: [
+      {
+        breakpoint: 950,
+        settings :
+        {
+          slidesPerRow: 2,
+          slidesToScroll: 1,
+          slidesToShow: 3,
+        },
+      },
+      {
+        breakpoint: 720,
+        settings:
+        {
+          slidesPerRow: 2,
+          slidesToScroll: 1,
+          slidesToShow: 2,
+        },
+      },
+      {
+        breakpoint: 520,
+        settings:
+        {
+          slidesPerRow: 1,
+          slidesToScroll: 1,
+          slidesToShow: 2,
+          vertical: true,
+          verticalSwiping: true,
+          dots: false,
+
+        },
+      },
+    ],
   };
     
   return (

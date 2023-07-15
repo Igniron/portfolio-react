@@ -10,16 +10,32 @@ import "slick-carousel/slick/slick-theme.css";
 export const Proyects = () => {
 
   const settings = {
+
+    arrows: false,
     autoplay: true,
-    autoplaySpeed: 4000,
+    autoplaySpeed: 3000,
+    centerMode: false,
     className: "slider",
     dots: true,
     infinite: true,
-    centerMode:true,
+    pauseOnHover: true,
     slidesPerRow: 1,
     slidesToScroll: 1,
     slidesToShow: 1,
     speed: 500,
+
+    responsive:[
+
+      {
+        breakpoint: 850,
+        settings :
+        {
+          // vertical: true,
+          // verticalSwiping: true,
+        },
+      },
+
+    ]
   };
 
   

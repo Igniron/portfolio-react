@@ -22,7 +22,7 @@
 {
     height: 100%;
     margin: auto;
-    width: 80%;
+    width: 100%;
 }
 
 .skills-cards
@@ -30,13 +30,10 @@
     align-items: center;
     background-color: #171C23;
     border-radius: 10px;
-    column-gap: 3vw;
     display: flex;
     flex-direction: column;
-    flex-wrap: wrap;
     justify-content: center;
-    padding: 20px 0px 20px 0px;
-    row-gap: 3vw;
+    padding: 10px 0px 10px 0px;
     text-align: center;
     transition: all 250ms;
     width: 200px !important;
@@ -65,4 +62,16 @@
 {
     transition: all 250ms;
 }
+
+@media (max-width: 520px)
+{
+   
+    .slick-slide div {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+}
+
 

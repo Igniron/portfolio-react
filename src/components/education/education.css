@@ -97,3 +97,16 @@
 {
     opacity: 1;
 }
+
+
+@media (max-width: 850px)
+{
+    .education-cards 
+    {
+        flex-direction: column;
+    }
+    .education-cards div
+    {
+        width: 80%;
+    }
+}

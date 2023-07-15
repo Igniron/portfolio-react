@@ -1,4 +1,4 @@
-export * from './educarion/Education';
+export * from './education/Education';
 export * from './footer/Footer';
 export * from './ham/Ham';
 export * from './header/Header';

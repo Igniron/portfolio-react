@@ -64,7 +64,7 @@ header p
 
 .conteiner-left-bottom
 {
-    margin: 0;
+    margin: 20px 0;
     padding: 0px 50px;
 }
 
@@ -101,5 +101,29 @@ header p
     border-radius: 50%;
     margin: auto;
     transition: all 250ms;
-    width: 60%;
+    width: 280px;
+}
+
+@media (max-width: 850px)
+{
+    header
+    {
+        flex-direction: column;
+        height: 100%;
+        padding: 20px 0px;
+    }
+    .conteiner-left
+    {
+        width: 100%;
+    }
+
+    .conteiner-right img
+    {
+        background-color: #171C23;
+        border-radius: 50%;
+        margin: auto;
+        transition: all 250ms;
+        width: 100%;
+    }
+
 }

@@ -6,7 +6,7 @@ footer
     display: flex;
     flex-direction: row;
     font-family: 'Montserrat', sans-serif;
-    height: 20vh;
+    height: 100%;
     gap: 4vw;
     width: 100%;
 }
@@ -15,7 +15,7 @@ footer div
 {
     display: flex;
     height: auto;
-    
+    justify-content: center;
 }
 
 .contact
@@ -111,4 +111,35 @@ footer div
 {
     color: #fff;
     transform: rotate(360deg);
+}
+
+
+@media (max-width: 850px)
+{
+    footer {
+        flex-direction: column;
+        padding: 50px 0px;
+        gap: 4vh
+    };
+
+    .more-info p
+    {
+        text-align: center;
+    }
+
+}
+
+@media (max-width: 500px)
+{
+    footer, .more-info
+    {
+        margin: 0;
+        padding: 0;
+    }
+    .more-info
+    {
+        height: 100% ;
+        width: 80%;
+        text-align: center;
+    }
 }
