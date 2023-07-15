@@ -9,25 +9,11 @@
   "education":
   [
     {
-      "name": "Instituto Dante Alighieri.",
-      "title": "Bachelor's degree specialized in computer science 2003 - 2016.",
-      "state": "Complete education.",
-      "average": "Average 8.",
-      "link": "https://dantebariloche.edu.ar/"
-    },
-    {
-      "name": "Universidad Nacional de Río Negro.",
-      "title": "Lic. en Telecomunicaciones 2017 - Present.",
-      "state": "4th year on the carrer.",
-      "average": null,
-      "link": "https://www.unrn.edu.ar/home"
-    },
-    {
-      "name": "React: De cero a Experto - Hernando Herrera.",
+      "name": "Soporte de tecnologías de la información - Google",
       "title": null,
-      "state": "Finished course.",
+      "state": "Ongoing capacitation",
       "average": null,
-      "link": "https://www.udemy.com/course/react-cero-experto/?kw=React&src=sac"
+      "link": "https://crece.withgoogle.com/intl/es_ar/certificates/"
     },
     {
       "name": "Argentina Programa.",
@@ -37,11 +23,25 @@
       "link": "https://www.argentina.gob.ar/economia/conocimiento/argentina-programa"
     },
     {
-      "name": "Soporte de tecnologías de la información - Google",
+      "name": "React: De cero a Experto - Hernando Herrera.",
       "title": null,
-      "state": "Ongoing capacitation",
+      "state": "Finished course.",
       "average": null,
-      "link": "https://crece.withgoogle.com/intl/es_ar/certificates/"
+      "link": "https://www.udemy.com/course/react-cero-experto/?kw=React&src=sac"
+    },
+    {
+      "name": "Universidad Nacional de Río Negro.",
+      "title": "Lic. en Telecomunicaciones 2017 - Present.",
+      "state": "4th year on the carrer.",
+      "average": null,
+      "link": "https://www.unrn.edu.ar/home"
+    },
+    {
+      "name": "Instituto Dante Alighieri.",
+      "title": "Bachelor's degree specialized in computer science 2003 - 2016.",
+      "state": "Complete education.",
+      "average": "Average 8.",
+      "link": "https://dantebariloche.edu.ar/"
     }
   ],
   "projects":
@@ -73,11 +73,8 @@
   ],
   "contact":
   {
-    "home": "La Primavera 4582.",
     "location": "San Carlos de bariloche, Rio Negro, Argentina.",
     "email": "ignacioroncal98@gmail.com",
-    "instagram": "https://www.instagram.com/nachoroncal/",
-    "twitter": "https://twitter.com/NachRoncal",
     "linkedin": "https://www.linkedin.com/in/ignacio-roncal-79b48a223/",
     "github": "https://github.com/Igniron"
   }

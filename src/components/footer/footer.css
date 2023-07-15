@@ -6,8 +6,9 @@ footer
     display: flex;
     flex-direction: row;
     font-family: 'Montserrat', sans-serif;
-    height: 100%;
     gap: 4vw;
+    height: 100%;
+    padding: 20px 0px;
     width: 100%;
 }
 
