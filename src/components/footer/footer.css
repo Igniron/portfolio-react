@@ -131,15 +131,12 @@ footer div
 
 @media (max-width: 500px)
 {
-    footer, .more-info
-    {
-        margin: 0;
-        padding: 0;
-    }
+
     .more-info
     {
         height: 100% ;
         width: 80%;
         text-align: center;
     }
+
 }
