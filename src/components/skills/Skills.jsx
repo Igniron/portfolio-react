@@ -11,7 +11,7 @@ export const Skills = () => {
   const settings = {
 
     arrows: false,
-    autoplay: false,
+    autoplay: true,
     autoplaySpeed: 3000,
     centerMode:true,
     className: "slider",
