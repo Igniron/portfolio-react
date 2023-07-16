@@ -13,21 +13,30 @@ export const Skills = () => {
     arrows: false,
     autoplay: true,
     autoplaySpeed: 3000,
-    centerMode:true,
+    centerMode:false,
     className: "slider",
     dots: true,
     infinite: true,
     pauseOnHover: true,
     slidesPerRow: 2,
     slidesToScroll: 1,
-    slidesToShow: 4.5,
+    slidesToShow: 5,
     speed: 500,
 
 
     responsive: [
       {
-        breakpoint: 950,
+        breakpoint: 1050,
         settings :
+        {
+          slidesPerRow: 2,
+          slidesToScroll: 1,
+          slidesToShow: 4,
+        },
+      },
+      {
+        breakpoint: 840,
+        settings:
         {
           slidesPerRow: 2,
           slidesToScroll: 1,
@@ -35,21 +44,12 @@ export const Skills = () => {
         },
       },
       {
-        breakpoint: 720,
-        settings:
-        {
-          slidesPerRow: 2,
-          slidesToScroll: 1,
-          slidesToShow: 2,
-        },
-      },
-      {
-        breakpoint: 520,
+        breakpoint: 620,
         settings:
         {
           slidesPerRow: 1,
-          slidesToScroll: 1,
-          slidesToShow: 2,
+          slidesToScroll: 2,
+          slidesToShow: 3.5,
           vertical: true,
           verticalSwiping: true,
           dots: false,

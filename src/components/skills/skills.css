@@ -63,7 +63,7 @@
     transition: all 250ms;
 }
 
-@media (max-width: 520px)
+@media (max-width: 620px)
 {
    
     .slick-slide div {
