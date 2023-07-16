@@ -48,8 +48,8 @@ export const Skills = () => {
         settings:
         {
           slidesPerRow: 1,
-          slidesToScroll: 2,
-          slidesToShow: 3.5,
+          slidesToScroll: 3,
+          slidesToShow: 3,
           vertical: true,
           verticalSwiping: true,
           dots: false,
