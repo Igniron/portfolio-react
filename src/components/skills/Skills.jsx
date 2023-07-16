@@ -20,7 +20,7 @@ export const Skills = () => {
     pauseOnHover: true,
     slidesPerRow: 2,
     slidesToScroll: 1,
-    slidesToShow: 4,
+    slidesToShow: 4.5,
     speed: 500,
 
 
