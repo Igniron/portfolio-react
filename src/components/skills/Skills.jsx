@@ -54,6 +54,7 @@ export const Skills = () => {
           slidesToShow: 3,
           vertical: true,
           verticalSwiping: true,
+          swipe: false,
         },
       },
     ],
