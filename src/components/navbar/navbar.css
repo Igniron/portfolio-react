@@ -29,7 +29,7 @@ nav
     justify-content: flex-start;
     gap: 5px;
     user-select: none;
-    width: 100%;
+    width: 50%;
 }
 
 .nav-left svg
@@ -45,7 +45,7 @@ nav
     display: flex;
     flex-direction: row;
     gap: 10vw;
-    justify-content: center;
+    justify-content: flex-start;
     list-style: none;
     margin: 0;
     width: 100%;
