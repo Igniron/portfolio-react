@@ -31,6 +31,7 @@ header p
 {
     margin: 0;
     padding: 0px 50px;
+    text-align: left;
 }
 
 .conteiner-left p:nth-child(1)
@@ -54,6 +55,7 @@ header p
     font-size: 15px;
     font-weight: 100;
     line-height: 23px;
+    text-align: justify;
 }
 
 .conteiner-right

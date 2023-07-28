@@ -26,16 +26,17 @@ nav
     display: flex; 
     font-size: 20px;
     font-weight: 700;
-    justify-content: center;
+    justify-content: flex-start;
+    gap: 5px;
     user-select: none;
-    width: 20%;
+    width: 100%;
 }
 
 .nav-left svg
 {
     color: #00BD95;
     height: 30px;
-    padding-right: 5px;
+
     width: 30px;
 }
 

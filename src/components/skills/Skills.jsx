@@ -20,8 +20,10 @@ export const Skills = () => {
     pauseOnHover: true,
     slidesPerRow: 2,
     slidesToScroll: 1,
+    swipeToSlide: true,
     slidesToShow: 5,
     speed: 500,
+    swipe: true,
 
 
     responsive: [
@@ -52,8 +54,6 @@ export const Skills = () => {
           slidesToShow: 3,
           vertical: true,
           verticalSwiping: true,
-          dots: false,
-
         },
       },
     ],
@@ -107,7 +107,7 @@ export const Skills = () => {
         </div>
 
         <div className='skills-cards'>
-          <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 15 15"><path fill="currentColor" fill-rule="evenodd" d="M7.5.421L14 4.213v6.574L7.5 14.58L1 10.787V4.213L7.5.42ZM7.5 4a3.5 3.5 0 1 0 0 7h.182c.976 0 1.913-.388 2.604-1.078l.068-.068l-.708-.708l-.068.068A2.682 2.682 0 0 1 7.682 10H7.5a2.5 2.5 0 0 1 0-5h.182c.711 0 1.393.283 1.896.786l.068.068l.708-.708l-.068-.068A3.682 3.682 0 0 0 7.682 4H7.5Z" clip-rule="evenodd"/></svg>
+          <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 15 15"><path fill="currentColor" fillRule="evenodd" d="M7.5.421L14 4.213v6.574L7.5 14.58L1 10.787V4.213L7.5.42ZM7.5 4a3.5 3.5 0 1 0 0 7h.182c.976 0 1.913-.388 2.604-1.078l.068-.068l-.708-.708l-.068.068A2.682 2.682 0 0 1 7.682 10H7.5a2.5 2.5 0 0 1 0-5h.182c.711 0 1.393.283 1.896.786l.068.068l.708-.708l-.068-.068A3.682 3.682 0 0 0 7.682 4H7.5Z" /></svg>
           <p>C</p>
         </div>
 

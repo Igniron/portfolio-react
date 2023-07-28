@@ -6,7 +6,7 @@ import './education.css'
 export const Education = () => {
 
 
-    
+  
   return (
   <div className="education">
     <h2 id="education">Education</h2>

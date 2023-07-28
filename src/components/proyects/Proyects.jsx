@@ -23,6 +23,7 @@ export const Proyects = () => {
     slidesToScroll: 1,
     slidesToShow: 1,
     speed: 500,
+    swipeToSlide: true,
 
     responsive:[
 
@@ -30,8 +31,8 @@ export const Proyects = () => {
         breakpoint: 850,
         settings :
         {
-          // vertical: true,
-          // verticalSwiping: true,
+          swipe: false,
+          arrows: false,
         },
       },
 
