@@ -47,13 +47,21 @@
       "state": "Complete education.",
       "average": "Average 8.",
       "link": "https://dantebariloche.edu.ar/"
+    },
+    {
+      "id": 6,
+      "name": "ComIT | Google",
+      "title": "Cybersecurity of Google",
+      "state": "On course",
+      "average": "",
+      "link": "https://www.coursera.org"
     }
   ],
   "projects":
   [
     {
       "id": 1,
-      "title": "Protfolio Angular",
+      "title": "ComIT | Google",
       "description": "Calendar app capable of creating and storing events created with the MERN stack tools (Mongo db, Express, React, Node js).",
       "link": "https://github.com/Igniron/protfolio-front-end",
       "img": "/img/portfolio.PNG"
